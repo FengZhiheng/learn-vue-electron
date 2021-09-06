@@ -3,12 +3,9 @@ electron-quick-start 项目是简单的js+css+html的桌面级应用程序；
 可以进行打包和发布；
 
 
-
 vue-project是使用了vue前端技术+electron的桌面级应用程序；
 
 可以进行打包和发布；
-
-
 
 Fiddle-test文件夹里的程序是，用Fiddle软件保存的jss+css+html文件。可以使用electron进行打包和发布。
 
