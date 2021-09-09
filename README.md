@@ -11,6 +11,8 @@ Fiddle-test文件夹里的程序是，用Fiddle软件保存的jss+css+html文件
 
 
 
+### 打包vue-electron APP
+
 1、安装nvm
 
 2、安装14.17.0 node【使用最新版的16.18.0快给我坑死了】
@@ -29,23 +31,7 @@ Fiddle-test文件夹里的程序是，用Fiddle软件保存的jss+css+html文件
 
 
 
------------------
-
-自定义登录界面
-
-```bash
-npm install bootstrap
-```
-
-```bash
-npm install vue-router
-```
-
-放弃使用Vue， 因为我做了一个用户登录界面，但是无法使用electron进行打包。但我还是想用Vue。
-
--------
-
-是vue桌面软件具备自动更新的功能：
+### 使VUE APP具备自动更新的功能：
 
 https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/recipes.html#auto-update
 
@@ -163,7 +149,6 @@ On Windows(一般一个token只有30天):
 set GH_TOKEN=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
 ```
 
-
 ### 
 
 5、发布你的软件(记得去 package.json里 修改 "version": "0.3.0",)
@@ -179,6 +164,22 @@ npm run electron:build -- -p always
 Install your app, then run it. You won't get an update notification yet, because this is the latest version. You will have to publish a new version by increasing the `version` field in your `package.json`, then repeating the 3 previous steps. Now, your old app should give you an update notification.
 
 
-### 按照这个教程重新配置一下
+
+
+### 是VUE APP具备页面跳转的功能
 
 https://vueschool.io/articles/vuejs-tutorials/how-to-use-vue-router-a-complete-tutorial/
+
+```
+vue create myapp
+cd myapp
+npm run serve
+```
+
+```
+vue add router
+```
+
+待学习的功能：页面传参。
+
+1、更新完毕后，同样可以使用
