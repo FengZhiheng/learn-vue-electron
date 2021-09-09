@@ -41,11 +41,7 @@ npm install bootstrap
 npm install vue-router
 ```
 
-
-
 放弃使用Vue， 因为我做了一个用户登录界面，但是无法使用electron进行打包。但我还是想用Vue。
-
-
 
 -------
 
@@ -161,23 +157,22 @@ On Linux/MacOS:
 export GH_TOKEN=TOKEN-GOES-HERE
 ```
 
-On Windows:
+On Windows(一般一个token只有30天):
 
 ```
-set GH_TOKEN=TOKEN-GOES-HERE
+set GH_TOKEN=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
 ```
+
 
 ### 
 
-5、发布你的软件
+5、发布你的软件(记得去 package.json里 修改 "version": "0.3.0",)
 
 npm run electron:build -- -p always
 
 6、Publish Release
 
 去github网站， 将草稿release掉；
-
-
 
 7、Check for Updates
 
