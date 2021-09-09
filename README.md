@@ -173,8 +173,6 @@ set GH_TOKEN=TOKEN-GOES-HERE
 
 npm run electron:build -- -p always
 
-
-
 6、Publish Release
 
 去github网站， 将草稿release掉；
@@ -184,3 +182,8 @@ npm run electron:build -- -p always
 7、Check for Updates
 
 Install your app, then run it. You won't get an update notification yet, because this is the latest version. You will have to publish a new version by increasing the `version` field in your `package.json`, then repeating the 3 previous steps. Now, your old app should give you an update notification.
+
+
+### 按照这个教程重新配置一下
+
+https://vueschool.io/articles/vuejs-tutorials/how-to-use-vue-router-a-complete-tutorial/
